@@ -8,7 +8,7 @@
 $(document).on('ready',function(){
   var searchImages = function(tags){
     // Call Flicker API //
-    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     console.log(tags);
     $('#images').innerHTML = '<li class="search-throbber"<Finding...</li>';
     // Searches for images based on user input/tags //
